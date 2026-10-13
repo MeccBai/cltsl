@@ -55,7 +55,6 @@ namespace cuda
     class Matrix
     {
         data_t *data;
-
     public:
         __host__ __device__ Matrix(data_t *pointer) : data(pointer) {}
 
